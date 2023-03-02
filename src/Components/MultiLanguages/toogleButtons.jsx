@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import "./toogleButtons.scss";
-import FrFlag from "../../assets/Images/img-languages/fr-flag.svg";
-import EsFlag from "../../assets/Images/img-languages/es-flag.svg";
-import EnFlag from "../../assets/Images/img-languages/en-flag.svg";
+import FrFlag from "../../assets/Images/ImgLanguages/fr-flag.svg";
+import EsFlag from "../../assets/Images/ImgLanguages/es-flag.svg";
+import EnFlag from "../../assets/Images/ImgLanguages/en-flag.svg";
 import { TranslationContext } from "../../Context/TranslationContext";
 
 function ToogleButtons() {

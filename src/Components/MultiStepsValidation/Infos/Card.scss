@@ -1,0 +1,10 @@
+.info-card {
+  border-radius: 15px;
+  box-shadow: 0 0 10px 0px #dddbd5;
+  padding: 2rem;
+  margin: 0 auto;
+
+  .gif {
+    pointer-events: none;
+  }
+}

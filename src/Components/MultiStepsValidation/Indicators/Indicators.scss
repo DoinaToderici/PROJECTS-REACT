@@ -1,0 +1,64 @@
+.indicators-container {
+  position: relative;
+  margin-bottom: 8rem;
+
+  @media only screen and (max-width: 425px) {
+    margin-bottom: 5rem;
+  }
+
+  .lines-container {
+    .line {
+      position: absolute;
+      height: 10px;
+      width: 100%;
+      border-radius: 100px;
+      top: 35px;
+
+      @media only screen and (max-width: 425px) {
+        top: 20px;
+        height: 5px;
+      }
+
+      &.upper-line {
+        background-color: green;
+        transition: width 0.4s easy-in-out;
+        z-index: 2;
+      }
+
+      &.lower-line {
+        background-color: yellow;
+      }
+    }
+  }
+
+  .container-img {
+    position: absolute;
+    top: -350%;
+    width: 100%;
+    z-index: 3;
+
+    .block-image {
+      padding: 1rem;
+      border-radius: 100px;
+      background-color: yellow;
+
+      @media only screen and (max-width: 425px) {
+        padding: 0.5rem;
+      }
+
+      img {
+        width: 50px;
+        height: 50px;
+
+        @media only screen and (max-width: 425px) {
+          width: 30px;
+          height: 30px;
+        }
+      }
+
+      &.active-step {
+        box-shadow: 0 0 10px 5px #dddbd5;
+      }
+    }
+  }
+}
